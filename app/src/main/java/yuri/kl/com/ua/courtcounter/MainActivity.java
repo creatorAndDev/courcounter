@@ -14,33 +14,41 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
+     * fields global
+     * */
+    int scoreTeamA = 0;
+
+    /**
      *Display the score on click three
      * submitThree
      * */
-    public void submitThree(View view) {
+    public void addThreeForTeamA(View view) {
         final int POINTS_FOR_THREE_THROW = 3;
+        scoreTeamA = scoreTeamA + POINTS_FOR_THREE_THROW;
 
-        displayForTeamA(POINTS_FOR_THREE_THROW);
+        displayForTeamA(scoreTeamA);
     }
 
     /**
      *Display the score on click two
      * submitThree
      * */
-    public void submitTwo(View view) {
+    public void addTwoForTeamA(View view) {
         final int POINTS_FOR_TWO_THROW = 2;
+        scoreTeamA = scoreTeamA + POINTS_FOR_TWO_THROW;
 
-        displayForTeamA(POINTS_FOR_TWO_THROW);
+        displayForTeamA(scoreTeamA);
     }
 
     /**
      *Display the score on click free
      * submitThree
      * */
-    public void submitFree(View view) {
+    public void addFreeForTeamA(View view) {
         final int POINTS_FOR_FREE_THROW = 1;
+        scoreTeamA = scoreTeamA + POINTS_FOR_FREE_THROW;
 
-        displayForTeamA(POINTS_FOR_FREE_THROW);
+        displayForTeamA(scoreTeamA);
     }
 
     /**
