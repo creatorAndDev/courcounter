@@ -141,6 +141,6 @@
             android:textColor="#fff"
             android:background="#4eb6ac"
             android:text="Reset"
-            android:onClick="resetButton" />
+            android:onClick="resetScore" />
     </LinearLayout>
 </LinearLayout>
