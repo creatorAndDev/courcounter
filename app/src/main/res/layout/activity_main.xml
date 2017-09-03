@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!--Tean a-->
+    <!--Team a-->
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="0dp"
@@ -47,7 +47,7 @@
             android:onClick="addFreeForTeamA" />
     </LinearLayout>
 
-    <!--Tean b-->
+    <!--Team b-->
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="0dp"

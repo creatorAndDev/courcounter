@@ -17,7 +17,6 @@ public class MainActivity extends AppCompatActivity {
      * fields global
      * */
     int scoreTeamA = 0;
-
     int scoreTeamB = 0;
 
     /**
