@@ -90,6 +90,18 @@ public class MainActivity extends AppCompatActivity {
 
         displayForTeamB(scoreTeamB);
     }
+
+    /**
+     *Display the score on click free
+     * submit Free
+     * team B
+     * */
+    public void addFreeForTeamB(View view) {
+        final int POINTS_FOR_FREE_THROW = 1;
+        scoreTeamB = scoreTeamB + POINTS_FOR_FREE_THROW;
+
+        displayForTeamB(scoreTeamB);
+    }
 //-------
     /**
      * Displays the given score for Team A.
