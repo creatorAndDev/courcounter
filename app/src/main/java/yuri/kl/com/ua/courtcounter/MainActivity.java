@@ -101,6 +101,7 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamA(scoreTeamA);
         displayForTeamB(scoreTeamB);
     }
+
 //-------
     /**
      * Displays the given score for Team A.
