@@ -92,14 +92,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     *Display the score on click free
-     * submit Free
-     * team B
+     *Display the score on click Reset
+     * submit Reset
+     * team A and B
      * */
-    public void addFreeForTeamB(View view) {
-        final int POINTS_FOR_FREE_THROW = 1;
-        scoreTeamB = scoreTeamB + POINTS_FOR_FREE_THROW;
+    public void resetButton(View view) {
+        scoreTeamA = 0;
+        scoreTeamB = 0;
 
+        displayForTeamA(scoreTeamA);
         displayForTeamB(scoreTeamB);
     }
 //-------
