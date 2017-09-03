@@ -92,10 +92,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     *Display the score on click Reset
-     * submit Reset
-     * team A and B
-     * */
+     * Resets the score for both teams back to 0.
+     */
     public void resetButton(View view) {
         scoreTeamA = 0;
         scoreTeamB = 0;
